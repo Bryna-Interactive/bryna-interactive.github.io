@@ -62,6 +62,7 @@ html[data-lang="it"] .t-en, html[data-lang="en"] .t-it { display: none !importan
   .nav a { font-size: clamp(34px, 9vw, 52px); font-weight: 600; letter-spacing: -.03em; color: var(--brina); padding: 4px 0; }
   .menu-open .nav { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); visibility: visible; transition: clip-path .7s var(--ease); }
   .menu-open { overflow: hidden; }
+  .menu-open .top.scrolled { -webkit-backdrop-filter: none; backdrop-filter: none; }
 }
 
 /* ------------------------------------------------------------------ elementi comuni */
