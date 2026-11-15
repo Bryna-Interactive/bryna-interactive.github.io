@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bryna-interactive.github.io/sitemap.xml

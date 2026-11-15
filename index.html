@@ -1,34 +1,216 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en" data-lang="en" data-titolo-en="Bryna Interactive — independent app studio for Android and iPad" data-titolo-it="Bryna Interactive — studio indipendente di app per Android e iPad" data-desc-en="Bryna Interactive is an independent studio building apps for Android and iPad: Kyklion and Lumetto." data-desc-it="Bryna Interactive è uno studio indipendente che sviluppa app per Android e iPad: Kyklion e Lumetto.">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bryna Interactive</title>
-<meta name="description" content="Bryna Interactive: app indipendenti per Android e iPad. Lumetto e Kyklion.">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bryna Interactive — independent app studio for Android and iPad</title>
+<meta name="description" content="Bryna Interactive is an independent studio building apps for Android and iPad: Kyklion and Lumetto.">
+<link rel="canonical" href="https://bryna-interactive.github.io/">
+<meta name="theme-color" content="#0A121B">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bryna Interactive">
+<meta property="og:title" content="Bryna Interactive — independent app studio for Android and iPad">
+<meta property="og:description" content="Bryna Interactive is an independent studio building apps for Android and iPad: Kyklion and Lumetto.">
+<meta property="og:url" content="https://bryna-interactive.github.io/">
+<meta property="og:locale" content="en_GB">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:image" content="https://bryna-interactive.github.io/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
+<script>
+  (function (d) {
+    var l = 'en';
+    try { if (localStorage.getItem('bryna-lingua') === 'it') l = 'it'; } catch (e) {}
+    d.lang = l; d.setAttribute('data-lang', l); d.className = 'js';
+  })(document.documentElement);
+</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Bryna Interactive", "url": "https://bryna-interactive.github.io/", "logo": "https://bryna-interactive.github.io/og.png", "email": "brynainteractive.support@gmail.com", "founder": {"@type": "Person", "name": "Mathias Fontani"}, "sameAs": ["https://www.youtube.com/@BrynaInteractive", "https://www.instagram.com/brynainteractive/", "https://www.tiktok.com/@brynainteractive", "https://x.com/BrynaInt", "https://github.com/Bryna-Interactive"]}</script>
 </head>
-<body>
-<header class="sito"><div><a class="marchio" href="./">Bryna Interactive</a></div></header>
-<main>
-  <h1>Bryna Interactive</h1>
-  <p>Piccolo studio indipendente che sviluppa app semplici, senza account e rispettose della privacy.</p>
+<body class="p-home">
+<a class="skip" href="#contenuto"><span class="t-en" lang="en">Skip to content</span><span class="t-it" lang="it">Vai al contenuto</span></a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <path id="b-altre" fill="currentColor" fill-rule="evenodd" d="M42.2 98.5 L46.5 96.8 L50.5 94.3 L54.0 91.3 L57.1 87.7 L59.5 83.8 L61.3 79.4 L62.4 74.9 L62.8 70.2 L62.4 65.6 L61.3 61.1 L59.5 56.7 L57.1 52.8 L54.0 49.2 L50.5 46.2 L49.2 45.4 L51.6 42.5 L53.8 38.9 L55.4 35.0 L56.4 30.9 L56.8 26.8 L56.4 22.6 L55.4 18.5 L53.8 14.6 L51.6 11.0 L48.9 7.8 L45.7 5.1 L42.1 2.9 L38.3 1.3 L34.2 0.3 L30.0 0.0 L0.0 0.0 L0.0 100.0 L33.0 100.0 L37.7 99.6ZM39.7 17.0 L41.1 18.7 L42.2 20.5 L43.1 22.5 L43.6 24.6 L43.7 26.8 L43.6 28.9 L43.1 31.0 L42.2 33.0 L41.1 34.8 L39.7 36.5 L38.1 37.9 L36.2 39.0 L34.2 39.8 L32.1 40.3 L30.0 40.5 L14.0 40.5 L14.0 13.0 L30.0 13.0 L32.1 13.2 L34.2 13.7 L36.2 14.5 L38.1 15.6ZM42.8 56.7 L44.8 58.4 L46.5 60.4 L47.9 62.6 L48.9 65.1 L49.5 67.6 L49.7 70.2 L49.5 72.9 L48.9 75.4 L47.9 77.8 L46.5 80.1 L44.8 82.1 L42.8 83.8 L40.6 85.2 L38.2 86.2 L35.6 86.8 L33.0 87.0 L14.0 87.0 L14.0 53.5 L33.0 53.5 L35.6 53.7 L38.2 54.3 L40.6 55.3ZM135.4 100.0 L113.4 58.7 L115.9 58.1 L120.3 56.3 L124.2 53.8 L127.8 50.8 L130.8 47.2 L133.3 43.3 L135.1 38.9 L136.1 34.4 L136.5 29.8 L136.1 25.1 L135.1 20.6 L133.3 16.2 L130.8 12.3 L127.8 8.7 L124.2 5.7 L120.3 3.2 L115.9 1.5 L111.4 0.4 L106.8 0.0 L75.8 0.0 L75.8 100.0 L89.8 100.0 L89.8 59.5 L98.6 59.5 L120.1 100.0ZM120.3 39.6 L118.6 41.6 L116.6 43.3 L114.4 44.7 L111.9 45.7 L109.4 46.3 L106.8 46.5 L89.8 46.5 L89.8 13.0 L106.8 13.0 L109.4 13.2 L111.9 13.8 L114.4 14.8 L116.6 16.2 L118.6 17.9 L120.3 19.9 L121.7 22.2 L122.7 24.6 L123.3 27.1 L123.5 29.8 L123.3 32.4 L122.7 34.9 L121.7 37.4ZM277.6 100.0 L293.0 100.0 L293.0 0.0 L279.0 0.0 L279.0 74.4 L238.4 0.0 L223.0 0.0 L223.0 100.0 L237.0 100.0 L237.0 25.6ZM336.8 0.0 L306.0 100.0 L320.4 100.0 L326.8 79.0 L361.1 79.0 L367.6 100.0 L382.0 100.0 L351.2 0.0ZM330.8 66.0 L344.0 23.3 L357.1 66.0Z"/>
+    <path id="b-stelo" fill="currentColor" d="M189.4 61.4 L189.0 59.9 L188.4 58.5 L187.6 57.1 L186.6 55.9 L185.4 54.9 L184.0 54.1 L182.6 53.5 L181.1 53.1 L179.5 53.0 L177.9 53.1 L176.4 53.5 L175.0 54.1 L173.6 54.9 L172.4 55.9 L171.4 57.1 L170.6 58.5 L170.0 59.9 L169.6 61.4 L169.5 63.0 L169.5 100.0 L189.5 100.0 L189.5 63.0Z"/>
+    <path id="b-cristallo" fill="currentColor" d="M177.5 50.2 L179.5 50.0 L181.5 50.2 L183.7 50.7 L213.0 0.0 L195.7 0.0 L179.5 28.0 L163.3 0.0 L146.0 0.0 L175.3 50.7Z"/>
+    <path id="b-desc" fill="currentColor" fill-rule="evenodd" d="M3.2 30.4 L3.2 0.0 L0.0 0.0 L0.0 30.4ZM40.3 30.4 L43.9 30.4 L43.9 0.0 L40.7 0.0 L40.7 25.1 L25.6 0.0 L22.0 0.0 L22.0 30.4 L25.2 30.4 L25.2 5.3ZM82.2 0.0 L62.8 0.0 L62.8 3.0 L70.9 3.0 L70.9 30.4 L74.1 30.4 L74.1 3.0 L82.2 3.0ZM101.0 0.0 L101.0 30.4 L118.1 30.4 L118.1 27.4 L104.2 27.4 L104.2 16.7 L116.8 16.7 L116.8 13.7 L104.2 13.7 L104.2 3.0 L118.1 3.0 L118.1 0.0ZM154.4 30.4 L147.4 17.2 L148.8 16.9 L150.1 16.3 L151.2 15.6 L152.3 14.8 L153.2 13.7 L153.9 12.6 L154.4 11.3 L154.7 10.0 L154.8 8.6 L154.7 7.3 L154.4 6.0 L153.9 4.7 L153.2 3.6 L152.3 2.5 L151.2 1.7 L150.1 0.9 L148.8 0.4 L147.5 0.1 L146.2 0.0 L136.9 0.0 L136.9 30.4 L140.1 30.4 L140.1 17.3 L144.0 17.3 L151.0 30.4ZM150.2 4.6 L150.8 5.3 L151.2 6.1 L151.6 6.9 L151.8 7.8 L151.8 8.6 L151.8 9.5 L151.6 10.4 L151.2 11.2 L150.8 12.0 L150.2 12.7 L149.5 13.2 L148.7 13.7 L147.9 14.0 L147.1 14.2 L146.2 14.3 L140.1 14.3 L140.1 3.0 L146.2 3.0 L147.1 3.0 L147.9 3.2 L148.7 3.6 L149.5 4.1ZM187.5 0.0 L184.1 0.0 L173.7 30.4 L177.0 30.4 L179.8 22.4 L191.8 22.4 L194.6 30.4 L198.0 30.4ZM190.8 19.4 L180.8 19.4 L185.8 4.9ZM234.4 0.2 L232.0 0.0 L229.6 0.2 L227.3 0.7 L225.1 1.7 L223.1 2.9 L221.3 4.5 L219.7 6.3 L218.5 8.3 L217.5 10.5 L217.0 12.8 L216.8 15.2 L217.0 17.6 L217.5 19.9 L218.5 22.1 L219.7 24.1 L221.3 25.9 L223.1 27.5 L225.1 28.7 L227.3 29.6 L229.6 30.2 L232.0 30.4 L234.4 30.2 L236.7 29.6 L238.9 28.7 L240.9 27.5 L242.7 25.9 L243.3 25.3 L240.9 23.2 L240.5 23.7 L239.1 25.0 L237.5 25.9 L235.7 26.7 L233.9 27.1 L232.0 27.3 L230.1 27.1 L228.3 26.7 L226.5 25.9 L224.9 25.0 L223.5 23.7 L222.2 22.3 L221.2 20.7 L220.5 18.9 L220.1 17.1 L219.9 15.2 L220.1 13.3 L220.5 11.5 L221.2 9.7 L222.2 8.1 L223.5 6.7 L224.9 5.4 L226.5 4.4 L228.3 3.7 L230.1 3.3 L232.0 3.1 L233.9 3.3 L235.7 3.7 L237.5 4.4 L239.1 5.4 L240.5 6.7 L240.9 7.1 L243.3 5.1 L242.7 4.5 L240.9 2.9 L238.9 1.7 L236.7 0.7ZM262.1 0.0 L262.1 3.0 L270.2 3.0 L270.2 30.4 L273.4 30.4 L273.4 3.0 L281.5 3.0 L281.5 0.0ZM303.6 30.4 L303.6 0.0 L300.4 0.0 L300.4 30.4ZM336.0 30.4 L346.1 0.0 L342.8 0.0 L334.3 25.4 L325.8 0.0 L322.4 0.0 L332.6 30.4ZM365.0 0.0 L365.0 30.4 L382.0 30.4 L382.0 27.4 L368.2 27.4 L368.2 16.7 L380.8 16.7 L380.8 13.7 L368.2 13.7 L368.2 3.0 L382.0 3.0 L382.0 0.0Z"/>
+    <path id="b-simbolo" fill="currentColor" fill-rule="evenodd" d="M-4.2 50.7 L-2.0 50.2 L0.0 50.0 L2.0 50.2 L4.2 50.7 L33.5 0.0 L16.2 0.0 L0.0 28.0 L-16.2 0.0 L-33.5 0.0ZM9.5 59.9 L8.9 58.5 L8.1 57.1 L7.1 55.9 L5.9 54.9 L4.5 54.1 L3.1 53.5 L1.6 53.1 L0.0 53.0 L-1.6 53.1 L-3.1 53.5 L-4.5 54.1 L-5.9 54.9 L-7.1 55.9 L-8.1 57.1 L-8.9 58.5 L-9.5 59.9 L-9.9 61.4 L-10.0 63.0 L-10.0 100.0 L10.0 100.0 L10.0 63.0 L9.9 61.4Z"/>
+    <symbol id="freccia" viewBox="0 0 18 12"><path d="M0 6h16M11 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+    <symbol id="v" viewBox="0 0 16 10"><path d="M0 0h4.5L8 5.8 11.5 0H16L8 10z" fill="currentColor"/></symbol>
+  </defs>
+</svg>
 
-  <section class="app">
-    <h2>Lumetto</h2>
-    <p>Lettore di fumetti, manga e webtoon per Android e iPad, con sincronizzazione diretta tra i tuoi dispositivi.</p>
-    <p><a href="lumetto/privacy.html">Informativa privacy</a> · <a href="lumetto/privacy.html#en">Privacy policy (English)</a></p>
+<header class="top" id="testata">
+  <div class="top-in">
+    <a class="logo-link" href="#inizio" aria-label="Bryna Interactive — home">
+      <svg viewBox="0 0 806 100" aria-hidden="true"><use href="#b-altre"/><use href="#b-stelo"/><use href="#b-cristallo"/><use href="#b-desc" transform="translate(428 70) scale(.987)"/></svg>
+    </a>
+    <nav class="nav" id="menu" aria-label="Menu">
+      <a href="studio.html"><span class="t-en" lang="en">Studio</span><span class="t-it" lang="it">Studio</span></a>
+      <a href="#progetti"><span class="t-en" lang="en">Apps</span><span class="t-it" lang="it">App</span></a>
+      <a href="lab.html"><span class="t-en" lang="en">Lab</span><span class="t-it" lang="it">Laboratorio</span></a>
+      <a href="#contatti"><span class="t-en" lang="en">Contact</span><span class="t-it" lang="it">Contatti</span></a>
+    </nav>
+    <button class="lang" type="button" id="lingua"><span data-l="en">EN</span>/<span data-l="it">IT</span></button>
+    <button class="menu-btn" type="button" aria-controls="menu" aria-expanded="false" aria-label="Menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="contenuto">
+
+<section class="hero" id="inizio">
+    <div class="hero-reticolo" aria-hidden="true"></div>
+    <canvas id="brina-hero" aria-hidden="true"></canvas>
+    <div class="hero-in">
+      <p class="kicker mono"><span class="t-en" lang="en">Independent studio · Android &amp; iPad</span><span class="t-it" lang="it">Studio indipendente · Android e iPad</span></p>
+      <h1 class="h-marchio" style="margin:0">
+        <svg class="marchio-hero" viewBox="-4 -4 390 168.4" role="img" aria-label="BRYNA INTERACTIVE">
+          <use href="#b-altre"/>
+          <path class="asta" fill="currentColor" d="M186.5 0.0 L186.5 100.0 L172.5 100.0 L172.5 0.0Z"/>
+          <use class="stelo" href="#b-stelo"/>
+          <use class="cristallo" href="#b-cristallo"/>
+          <circle class="lampo" cx="179.5" cy="51.9" r="1.6" fill="#F7AB64"/>
+          <use class="descrittore" href="#b-desc" transform="translate(0 130)"/>
+        </svg>
+      </h1>
+      <div class="hero-righe">
+        <p class="hero-titolo">
+          <span class="t-en" lang="en"><span class="riga"><span style="--ritardo:2.5s">Software with the precision</span></span><span class="riga"><span style="--ritardo:2.65s">of frost.</span></span></span>
+          <span class="t-it" lang="it"><span class="riga"><span style="--ritardo:2.5s">Software con la precisione</span></span><span class="riga"><span style="--ritardo:2.65s">della brina.</span></span></span>
+        </p>
+        <div class="hero-dx">
+          <p><span class="t-en" lang="en">A small independent studio building apps for Android and iPad.</span><span class="t-it" lang="it">Piccolo studio indipendente che sviluppa app per Android e iPad.</span></p>
+          <div class="cta">
+            <a class="btn" href="#progetti"><span class="t-en" lang="en">Explore the apps</span><span class="t-it" lang="it">Scopri le app</span><svg class="freccia" aria-hidden="true"><use href="#freccia"/></svg></a>
+            <a class="btn vuoto" href="studio.html#metodo"><span class="t-en" lang="en">Our method</span><span class="t-it" lang="it">Il metodo</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-meta">
+      <div class="wrap mono">
+        <a class="scorri" href="#margini"><i></i><span class="t-en" lang="en">Scroll</span><span class="t-it" lang="it">Scorri</span></a>
+      </div>
+    </div>
   </section>
 
-  <section class="app">
-    <h2>Kyklion</h2>
-    <p>Assistente personale per abitudini, alimentazione, sonno e obiettivi, con i dati salvati sul telefono.</p>
-    <p><a href="kyklion/privacy.html">Informativa privacy</a> · <a href="kyklion/privacy.html#en">Privacy policy (English)</a></p>
+<section class="margini chiara" id="margini" aria-labelledby="t-margini">
+    <canvas class="brina-margine sx" aria-hidden="true"></canvas>
+    <canvas class="brina-margine dx" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <h2 class="frase" id="t-margini" data-taglio><span class="t-en" lang="en">Ideas take shape at the edges.</span><span class="t-it" lang="it">Le idee prendono forma ai margini.</span></h2>
+    </div>
   </section>
 
-  <h2>Contatti</h2>
-  <p>Supporto: <a href="mailto:brynainteractive.support@gmail.com">brynainteractive.support@gmail.com</a></p>
+<section class="section" id="progetti" aria-labelledby="t-progetti">
+    <div class="wrap">
+      <div class="progetti-testa">
+        <div>
+          <p class="kicker mono"><span class="t-en" lang="en">Apps</span><span class="t-it" lang="it">App</span></p>
+          <h2 class="titolo" id="t-progetti" data-taglio><span class="t-en" lang="en">Two apps, the same care.</span><span class="t-it" lang="it">Due app, la stessa cura.</span></h2>
+        </div>
+        <p data-rivela><span class="t-en" lang="en">The studio's first apps, coming soon to the stores.</span><span class="t-it" lang="it">Le prime app dello studio, in arrivo sugli store.</span></p>
+      </div>
+      <div class="app-griglia">
+        <article class="app kyklion" data-osserva aria-labelledby="t-kyklion">
+          <div class="visivo"><svg viewBox="60 78 380 360" role="img" aria-label="Kyklion"><path class="kyk-anello" d="M256.9 106.8A149.5 149.5 0 1 1 121.4 319.5" fill="none" stroke="#ECE5D6" stroke-width="41.7"/><circle class="kyk-punto" style="transition-delay:1.00s" cx="239.0" cy="106.3" r="7.6" fill="#5A554D"/><circle class="kyk-punto" style="transition-delay:1.09s" cx="209.7" cy="112.7" r="7.6" fill="#5A554D"/><circle class="kyk-punto" style="transition-delay:1.18s" cx="182.2" cy="124.7" r="7.6" fill="#5A554D"/><circle class="kyk-punto" style="transition-delay:1.27s" cx="157.8" cy="141.8" r="7.6" fill="#5A554D"/><circle class="kyk-punto" style="transition-delay:1.36s" cx="137.0" cy="163.6" r="7.6" fill="#5A554D"/><circle class="kyk-punto" style="transition-delay:1.45s" cx="121.0" cy="188.9" r="7.6" fill="#5A554D"/><circle class="kyk-punto" style="transition-delay:1.54s" cx="110.5" cy="217.0" r="7.6" fill="#5A554D"/><circle class="kyk-punto" style="transition-delay:1.63s" cx="105.7" cy="246.6" r="7.6" fill="#5A554D"/><circle class="kyk-oro" cx="114.6" cy="306.8" r="45.6" fill="#C9A96A"/></svg></div>
+          <div class="app-corpo">
+            <h3 id="t-kyklion">Kyklion</h3>
+            <p class="motto"><span class="t-en" lang="en">Your day, in a loop.</span><span class="t-it" lang="it">La tua giornata in un ciclo.</span></p>
+            <p class="desc"><span class="t-en" lang="en">A personal assistant for routines, tasks, diet, workouts, sleep, journal and goals.</span><span class="t-it" lang="it">Assistente personale per routine, task, dieta, workout, sonno, diario e obiettivi.</span></p>
+            <ul class="etichette">
+              <li><span class="t-en" lang="en">Today</span><span class="t-it" lang="it">Oggi</span></li>
+              <li><span class="t-en" lang="en">Do</span><span class="t-it" lang="it">Fare</span></li>
+              <li><span class="t-en" lang="en">Health</span><span class="t-it" lang="it">Salute</span></li>
+              <li><span class="t-en" lang="en">Growth</span><span class="t-it" lang="it">Crescita</span></li>
+              <li><span class="t-en" lang="en">AI assistant</span><span class="t-it" lang="it">Assistente IA</span></li>
+            </ul>
+            <div class="meta mono">
+              <span class="stato"><span class="t-en" lang="en">Android · coming soon to Google&nbsp;Play</span><span class="t-it" lang="it">Android · in arrivo su Google&nbsp;Play</span></span>
+              <span class="link-app">
+                <a class="t-en" lang="en" href="kyklion/privacy.html#en">Privacy policy</a><a class="t-it" lang="it" href="kyklion/privacy.html">Informativa privacy</a>
+              </span>
+            </div>
+          </div>
+        </article>
+        <article class="app lumetto" data-osserva aria-labelledby="t-lumetto">
+          <div class="visivo"><svg viewBox="36 12 144 166" role="img" aria-label="Lumetto"><defs><path id="lu-n" d="M98.8 170.3C89 165.8 85.5 156.8 91.5 148.7C73.4 146.9 62.5 136.1 69.7 125.3C50.4 120.8 43.1 105.5 55.2 96.5C43.1 82.1 55.2 66.8 76.9 66.8C75.5 49 92 43 102 40C107.5 38 110.5 33 110.5 26.5C113.5 24.5 116.5 22 119 19C117.5 27 119.5 35 125 38.5C134 43 138.5 51 136.2 65.9C158.1 66.8 171.3 83 158.1 97.4C170.2 105.5 164.1 122.6 143.5 126.2C150.7 137 139.9 147.8 121.8 149.6C127.8 156.8 120.5 167.6 106 168.5C103.6 171.2 101.1 171.2 98.8 170.3Z"/><path id="lu-f" d="M101 70C104 88 123 100 123 119C123 132 113 141 100 141C87 141 77 132 77 119C77 104 91 96 95 85C97 92 98 96 100 99C99 88 99 79 101 70Z"/><filter id="lu-r" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="1.5"/></filter><pattern id="lu-t1" width="2.8" height="2.8" patternUnits="userSpaceOnUse" patternTransform="rotate(-40)"><line x1="0" y1="0" x2="0" y2="2.8" stroke="#16120E" stroke-width="0.75"/></pattern><pattern id="lu-t2" width="3.4" height="3.4" patternUnits="userSpaceOnUse" patternTransform="rotate(38)"><line x1="0" y1="0" x2="0" y2="3.4" stroke="#16120E" stroke-width="0.6"/></pattern><pattern id="lu-tf" width="2.6" height="2.6" patternUnits="userSpaceOnUse" patternTransform="rotate(-20)"><line x1="0" y1="0" x2="0" y2="2.6" stroke="#9A5A12" stroke-width="0.7"/></pattern><mask id="lu-o1"><use href="#lu-n" fill="#fff"/><use href="#lu-n" fill="#000" transform="translate(-8 -7)"/></mask><mask id="lu-o2"><use href="#lu-n" fill="#fff"/><use href="#lu-n" fill="#000" transform="translate(-4 -4)"/></mask><mask id="lu-of"><use href="#lu-f" fill="#fff"/><use href="#lu-f" fill="#000" transform="translate(-7 -2)"/></mask></defs><use href="#lu-n" fill="#16120E" transform="translate(3.5 4)" filter="url(#lu-r)"/><use href="#lu-n" fill="#F1E8D3"/><rect width="200" height="200" fill="url(#lu-t1)" mask="url(#lu-o1)" opacity="0.8" filter="url(#lu-r)"/><rect width="200" height="200" fill="url(#lu-t2)" mask="url(#lu-o2)" opacity="0.7" filter="url(#lu-r)"/><use href="#lu-n" fill="none" stroke="#16120E" stroke-width="2.86" stroke-linejoin="round" filter="url(#lu-r)"/><g fill="none" stroke="#16120E" stroke-width="1.56" stroke-linecap="round" filter="url(#lu-r)"><path d="M76.9 67.7C84.2 72.2 85.5 79.4 79.4 84.8"/><path d="M136.2 66.8C129 71.3 127.8 78.5 133.9 83"/><path d="M55.2 97.4C62.5 100.1 67.3 105.5 64.9 110.9"/><path d="M158.1 98.3C150.7 101 146 106.4 148.3 111.8"/><path d="M91.5 149.6C98.8 150.5 103.6 154.1 103.6 158.6"/></g><g transform="translate(6 -3)"><g class="lu-fiamma"><use href="#lu-f" fill="#E39B2D"/><path d="M101 106C102 116 112 121 112 129C112 136 107 140 100 140C93 140 88 136 88 129C88 121 99 116 101 106Z" fill="#F3C661"/><rect width="200" height="200" fill="url(#lu-tf)" mask="url(#lu-of)" opacity="0.8"/><use href="#lu-f" fill="none" stroke="#16120E" stroke-width="2.6" stroke-linejoin="round" filter="url(#lu-r)"/></g></g><path d="M76.8 142.4C79 133.4 92 128.9 101.7 134.3C108.2 127.1 123.3 128.9 127.6 136.1C136.2 136.1 140.6 142.4 136.2 147.8C121.1 153.2 89.8 153.2 76.8 142.4Z" fill="#F1E8D3"/><path d="M77.9 140.6C80.1 133.4 92 128.9 101.7 134.3C108.2 127.1 123.3 128.9 127.6 136.1C135.2 136.1 139.5 140.6 137.3 146" fill="none" stroke="#16120E" stroke-width="2.34" stroke-linecap="round" stroke-linejoin="round" filter="url(#lu-r)"/></svg></div>
+          <div class="app-corpo">
+            <h3 id="t-lumetto">Lumetto</h3>
+            <p class="motto"><span class="t-en" lang="en">“One more page, then lights out.”</span><span class="t-it" lang="it">«Ancora una pagina, poi spengo il lume.»</span></p>
+            <p class="desc"><span class="t-en" lang="en">A comic, manga and webtoon reader for Android and iPad, with direct sync between your devices.</span><span class="t-it" lang="it">Lettore di fumetti, manga e webtoon per Android e iPad, con sincronizzazione diretta tra i tuoi dispositivi.</span></p>
+            <ul class="etichette">
+              <li><span class="t-en" lang="en">Spatial library</span><span class="t-it" lang="it">Libreria a navigazione spaziale</span></li>
+              <li><span class="t-en" lang="en">Device sync</span><span class="t-it" lang="it">Sincronizzazione tra dispositivi</span></li>
+              <li>Incognito</li>
+              <li><span class="t-en" lang="en">AI Access</span><span class="t-it" lang="it">Accesso AI</span></li>
+            </ul>
+            <div class="meta mono">
+              <span class="stato"><span class="t-en" lang="en">Android &amp; iPad · coming soon</span><span class="t-it" lang="it">Android e iPad · in arrivo</span></span>
+              <span class="link-app">
+                <a class="t-en" lang="en" href="lumetto/samples/">Sample comics</a><a class="t-it" lang="it" href="lumetto/samples/#it">Fumetti di prova</a>
+                <a class="t-en" lang="en" href="lumetto/privacy.html#en">Privacy policy</a><a class="t-it" lang="it" href="lumetto/privacy.html">Informativa privacy</a>
+              </span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
 
-  <footer>Bryna Interactive · Mathias Fontani · Via Foscolo 3, 51011 Buggiano (PT), Italia</footer>
+<section class="section chiara contatti" id="contatti" aria-labelledby="t-contatti">
+    <canvas class="brina-bordo" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <h2 class="kicker mono" id="t-contatti"><span class="t-en" lang="en">Contact</span><span class="t-it" lang="it">Contatti</span></h2>
+      <a class="grande" href="mailto:brynainteractive.support@gmail.com" data-taglio>brynainteractive.support@gmail.com</a>
+      <div class="contatti-riga">
+        <button class="btn" type="button" id="copia"><span class="t-en" lang="en">Copy address</span><span class="t-it" lang="it">Copia l'indirizzo</span></button>
+        <p><span class="t-en" lang="en">App support, bug reports and questions: we reply by email.</span><span class="t-it" lang="it">Supporto per le app, segnalazioni e domande: rispondiamo via email.</span></p>
+        <span class="copiato mono" id="esito" aria-live="polite"></span>
+      </div>
+      <div class="contatti-social">
+        <p class="mono"><span class="t-en" lang="en">Follow the studio</span><span class="t-it" lang="it">Segui lo studio</span></p>
+        <div class="social mono">
+        <a href="https://www.youtube.com/@BrynaInteractive" rel="me noopener" target="_blank">YouTube</a>
+        <a href="https://www.instagram.com/brynainteractive/" rel="me noopener" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com/@brynainteractive" rel="me noopener" target="_blank">TikTok</a>
+        <a href="https://x.com/BrynaInt" rel="me noopener" target="_blank">X</a>
+        <a href="https://github.com/Bryna-Interactive" rel="me noopener" target="_blank">GitHub</a>
+      </div>
+      </div>
+    </div>
+  </section>
+
 </main>
+<footer class="piede">
+  <div class="wrap">
+    <a class="piede-segno" href="#inizio" aria-label="Bryna Interactive — home"><svg viewBox="-36 -2 72 104" aria-hidden="true"><use href="#b-simbolo"/></svg></a>
+    <div class="piede-testo">
+      <p>© 2026 Bryna Interactive · Mathias Fontani</p>
+      <p class="piede-motto"><span class="t-en" lang="en">Ideas take shape at the edges.</span><span class="t-it" lang="it">Le idee prendono forma ai margini.</span></p>
+    </div>
+    <div class="piede-link">
+      <nav class="social mono" aria-label="Social">
+        <a href="https://www.youtube.com/@BrynaInteractive" rel="me noopener" target="_blank">YouTube</a>
+        <a href="https://www.instagram.com/brynainteractive/" rel="me noopener" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com/@brynainteractive" rel="me noopener" target="_blank">TikTok</a>
+        <a href="https://x.com/BrynaInt" rel="me noopener" target="_blank">X</a>
+        <a href="https://github.com/Bryna-Interactive" rel="me noopener" target="_blank">GitHub</a>
+      </nav>
+      <nav class="legali" aria-label="Privacy">
+        <a class="t-en" lang="en" href="privacy.html">Website privacy</a><a class="t-it" lang="it" href="privacy.html#it">Privacy del sito</a>
+        <a class="t-en" lang="en" href="kyklion/privacy.html#en">Kyklion privacy</a><a class="t-it" lang="it" href="kyklion/privacy.html">Informativa Kyklion</a>
+        <a class="t-en" lang="en" href="lumetto/privacy.html#en">Lumetto privacy</a><a class="t-it" lang="it" href="lumetto/privacy.html">Informativa Lumetto</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+<canvas id="brina-filo" aria-hidden="true"></canvas>
+<script src="site.js" defer></script>
 </body>
 </html>
